@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F53B22AE1C8C46A200FC7B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22AD1C8C46A200FC7B09 /* main.m */; };
+		F53B22B71C8C46A200FC7B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53B22B51C8C46A200FC7B09 /* Main.storyboard */; };
+		F53B22B91C8C46A200FC7B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53B22B81C8C46A200FC7B09 /* Assets.xcassets */; };
+		F53B22BC1C8C46A200FC7B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53B22BA1C8C46A200FC7B09 /* LaunchScreen.storyboard */; };
+		F53B22C81C8C498700FC7B09 /* PersistenceTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22C71C8C498700FC7B09 /* PersistenceTable.m */; };
+		F53B22CC1C8C4DB100FC7B09 /* PersistenceQueryCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22CB1C8C4DB100FC7B09 /* PersistenceQueryCommand.m */; };
+		F53B22D01C8C53CE00FC7B09 /* PersistenceDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22CF1C8C53CE00FC7B09 /* PersistenceDatabase.m */; };
+		F53B22D21C8C541500FC7B09 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F53B22D11C8C541500FC7B09 /* libsqlite3.tbd */; };
+		F53B22DE1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22DD1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m */; };
+		F53B22E41C8C778500FC7B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22E11C8C778500FC7B09 /* AppDelegate.m */; };
+		F53B22E51C8C778500FC7B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22E31C8C778500FC7B09 /* ViewController.m */; };
+		F53B22E91C8C77CF00FC7B09 /* MyTable01.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22E81C8C77CF00FC7B09 /* MyTable01.m */; };
+		F53B22ED1C8C793E00FC7B09 /* testObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22EC1C8C793E00FC7B09 /* testObject.m */; };
+		F5D75F121C8DBC3D0007F8C9 /* PersistenceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D75F111C8DBC3D0007F8C9 /* PersistenceRecord.m */; };
+		F5D75F161C8DC6A70007F8C9 /* TestRecord01.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D75F151C8DC6A70007F8C9 /* TestRecord01.m */; };
+		F5D75F191C8DC8570007F8C9 /* TestRecordCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D75F181C8DC8570007F8C9 /* TestRecordCase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F53B22A91C8C46A200FC7B09 /* Persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53B22AD1C8C46A200FC7B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F53B22B61C8C46A200FC7B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F53B22B81C8C46A200FC7B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F53B22BB1C8C46A200FC7B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F53B22BD1C8C46A200FC7B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53B22C61C8C498700FC7B09 /* PersistenceTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceTable.h; sourceTree = "<group>"; };
+		F53B22C71C8C498700FC7B09 /* PersistenceTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceTable.m; sourceTree = "<group>"; };
+		F53B22CA1C8C4DB100FC7B09 /* PersistenceQueryCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceQueryCommand.h; sourceTree = "<group>"; };
+		F53B22CB1C8C4DB100FC7B09 /* PersistenceQueryCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceQueryCommand.m; sourceTree = "<group>"; };
+		F53B22CE1C8C53CE00FC7B09 /* PersistenceDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceDatabase.h; sourceTree = "<group>"; };
+		F53B22CF1C8C53CE00FC7B09 /* PersistenceDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceDatabase.m; sourceTree = "<group>"; };
+		F53B22D11C8C541500FC7B09 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F53B22D31C8C604800FC7B09 /* PersistenceConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceConfiguration.h; sourceTree = "<group>"; };
+		F53B22DC1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersistenceQueryCommand+SchemaOperations.h"; sourceTree = "<group>"; };
+		F53B22DD1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PersistenceQueryCommand+SchemaOperations.m"; path = "Category/PersistenceQueryCommand+SchemaOperations.m"; sourceTree = "<group>"; };
+		F53B22E01C8C778500FC7B09 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F53B22E11C8C778500FC7B09 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F53B22E21C8C778500FC7B09 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F53B22E31C8C778500FC7B09 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F53B22E71C8C77CF00FC7B09 /* MyTable01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTable01.h; sourceTree = "<group>"; };
+		F53B22E81C8C77CF00FC7B09 /* MyTable01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTable01.m; sourceTree = "<group>"; };
+		F53B22EB1C8C793E00FC7B09 /* testObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testObject.h; sourceTree = "<group>"; };
+		F53B22EC1C8C793E00FC7B09 /* testObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testObject.m; sourceTree = "<group>"; };
+		F5D75F101C8DBC3D0007F8C9 /* PersistenceRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceRecord.h; sourceTree = "<group>"; };
+		F5D75F111C8DBC3D0007F8C9 /* PersistenceRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceRecord.m; sourceTree = "<group>"; };
+		F5D75F141C8DC6A70007F8C9 /* TestRecord01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRecord01.h; sourceTree = "<group>"; };
+		F5D75F151C8DC6A70007F8C9 /* TestRecord01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRecord01.m; sourceTree = "<group>"; };
+		F5D75F171C8DC8570007F8C9 /* TestRecordCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRecordCase.h; sourceTree = "<group>"; };
+		F5D75F181C8DC8570007F8C9 /* TestRecordCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRecordCase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F53B22A61C8C46A200FC7B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53B22D21C8C541500FC7B09 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F53B22A01C8C46A200FC7B09 = {
+			isa = PBXGroup;
+			children = (
+				F53B22AB1C8C46A200FC7B09 /* Persistence */,
+				F53B22AA1C8C46A200FC7B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F53B22AA1C8C46A200FC7B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22A91C8C46A200FC7B09 /* Persistence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F53B22AB1C8C46A200FC7B09 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22E61C8C779700FC7B09 /* test */,
+				F53B22DF1C8C778500FC7B09 /* Other */,
+				F53B22D31C8C604800FC7B09 /* PersistenceConfiguration.h */,
+				F53B22CD1C8C537900FC7B09 /* Database */,
+				F53B22C91C8C4D9100FC7B09 /* QueryComand */,
+				F53B22C51C8C490200FC7B09 /* Record */,
+				F53B22C41C8C48F200FC7B09 /* Table */,
+				F53B22B51C8C46A200FC7B09 /* Main.storyboard */,
+				F53B22B81C8C46A200FC7B09 /* Assets.xcassets */,
+				F53B22BA1C8C46A200FC7B09 /* LaunchScreen.storyboard */,
+				F53B22BD1C8C46A200FC7B09 /* Info.plist */,
+				F53B22AC1C8C46A200FC7B09 /* Supporting Files */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		F53B22AC1C8C46A200FC7B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22D11C8C541500FC7B09 /* libsqlite3.tbd */,
+				F53B22AD1C8C46A200FC7B09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F53B22C41C8C48F200FC7B09 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22C61C8C498700FC7B09 /* PersistenceTable.h */,
+				F53B22C71C8C498700FC7B09 /* PersistenceTable.m */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		F53B22C51C8C490200FC7B09 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				F5D75F101C8DBC3D0007F8C9 /* PersistenceRecord.h */,
+				F5D75F111C8DBC3D0007F8C9 /* PersistenceRecord.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		F53B22C91C8C4D9100FC7B09 /* QueryComand */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22DB1C8C6F8600FC7B09 /* Category */,
+				F53B22DD1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m */,
+				F53B22CA1C8C4DB100FC7B09 /* PersistenceQueryCommand.h */,
+				F53B22CB1C8C4DB100FC7B09 /* PersistenceQueryCommand.m */,
+			);
+			path = QueryComand;
+			sourceTree = "<group>";
+		};
+		F53B22CD1C8C537900FC7B09 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22CE1C8C53CE00FC7B09 /* PersistenceDatabase.h */,
+				F53B22CF1C8C53CE00FC7B09 /* PersistenceDatabase.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		F53B22DB1C8C6F8600FC7B09 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22DC1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F53B22DF1C8C778500FC7B09 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22E01C8C778500FC7B09 /* AppDelegate.h */,
+				F53B22E11C8C778500FC7B09 /* AppDelegate.m */,
+				F53B22E21C8C778500FC7B09 /* ViewController.h */,
+				F53B22E31C8C778500FC7B09 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F53B22E61C8C779700FC7B09 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				F5D75F131C8DC67F0007F8C9 /* Test_Record */,
+				F53B22EA1C8C791200FC7B09 /* testTable */,
+				F53B22EB1C8C793E00FC7B09 /* testObject.h */,
+				F53B22EC1C8C793E00FC7B09 /* testObject.m */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		F53B22EA1C8C791200FC7B09 /* testTable */ = {
+			isa = PBXGroup;
+			children = (
+				F53B22E71C8C77CF00FC7B09 /* MyTable01.h */,
+				F53B22E81C8C77CF00FC7B09 /* MyTable01.m */,
+			);
+			name = testTable;
+			sourceTree = "<group>";
+		};
+		F5D75F131C8DC67F0007F8C9 /* Test_Record */ = {
+			isa = PBXGroup;
+			children = (
+				F5D75F141C8DC6A70007F8C9 /* TestRecord01.h */,
+				F5D75F151C8DC6A70007F8C9 /* TestRecord01.m */,
+				F5D75F171C8DC8570007F8C9 /* TestRecordCase.h */,
+				F5D75F181C8DC8570007F8C9 /* TestRecordCase.m */,
+			);
+			name = Test_Record;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F53B22A81C8C46A200FC7B09 /* Persistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53B22C01C8C46A200FC7B09 /* Build configuration list for PBXNativeTarget "Persistence" */;
+			buildPhases = (
+				F53B22A51C8C46A200FC7B09 /* Sources */,
+				F53B22A61C8C46A200FC7B09 /* Frameworks */,
+				F53B22A71C8C46A200FC7B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Persistence;
+			productName = Persistence;
+			productReference = F53B22A91C8C46A200FC7B09 /* Persistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F53B22A11C8C46A200FC7B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tanhui;
+				TargetAttributes = {
+					F53B22A81C8C46A200FC7B09 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F53B22A41C8C46A200FC7B09 /* Build configuration list for PBXProject "Persistence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F53B22A01C8C46A200FC7B09;
+			productRefGroup = F53B22AA1C8C46A200FC7B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F53B22A81C8C46A200FC7B09 /* Persistence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F53B22A71C8C46A200FC7B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53B22BC1C8C46A200FC7B09 /* LaunchScreen.storyboard in Resources */,
+				F53B22B91C8C46A200FC7B09 /* Assets.xcassets in Resources */,
+				F53B22B71C8C46A200FC7B09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F53B22A51C8C46A200FC7B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D75F121C8DBC3D0007F8C9 /* PersistenceRecord.m in Sources */,
+				F53B22E51C8C778500FC7B09 /* ViewController.m in Sources */,
+				F53B22DE1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m in Sources */,
+				F53B22D01C8C53CE00FC7B09 /* PersistenceDatabase.m in Sources */,
+				F53B22E41C8C778500FC7B09 /* AppDelegate.m in Sources */,
+				F53B22C81C8C498700FC7B09 /* PersistenceTable.m in Sources */,
+				F53B22E91C8C77CF00FC7B09 /* MyTable01.m in Sources */,
+				F53B22AE1C8C46A200FC7B09 /* main.m in Sources */,
+				F53B22ED1C8C793E00FC7B09 /* testObject.m in Sources */,
+				F5D75F161C8DC6A70007F8C9 /* TestRecord01.m in Sources */,
+				F5D75F191C8DC8570007F8C9 /* TestRecordCase.m in Sources */,
+				F53B22CC1C8C4DB100FC7B09 /* PersistenceQueryCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F53B22B51C8C46A200FC7B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53B22B61C8C46A200FC7B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F53B22BA1C8C46A200FC7B09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53B22BB1C8C46A200FC7B09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F53B22BE1C8C46A200FC7B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F53B22BF1C8C46A200FC7B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53B22C11C8C46A200FC7B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Persistence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanhui.Persistence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F53B22C21C8C46A200FC7B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Persistence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanhui.Persistence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F53B22A41C8C46A200FC7B09 /* Build configuration list for PBXProject "Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53B22BE1C8C46A200FC7B09 /* Debug */,
+				F53B22BF1C8C46A200FC7B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53B22C01C8C46A200FC7B09 /* Build configuration list for PBXNativeTarget "Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53B22C11C8C46A200FC7B09 /* Debug */,
+				F53B22C21C8C46A200FC7B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F53B22A11C8C46A200FC7B09 /* Project object */;
+}
