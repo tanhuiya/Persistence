@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B083E27E1C8E75CA00C79091 /* PersistenceQueryCommand+DataOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = B083E27D1C8E75CA00C79091 /* PersistenceQueryCommand+DataOperations.m */; };
+		B083E2821C8E938800C79091 /* PersistenceTable+Insert.m in Sources */ = {isa = PBXBuildFile; fileRef = B083E2811C8E938800C79091 /* PersistenceTable+Insert.m */; };
+		B0B6D88B1C8FCCAD0096E2A6 /* PersistenceTable+Update.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B6D88A1C8FCCAD0096E2A6 /* PersistenceTable+Update.m */; };
 		F53B22AE1C8C46A200FC7B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B22AD1C8C46A200FC7B09 /* main.m */; };
 		F53B22B71C8C46A200FC7B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53B22B51C8C46A200FC7B09 /* Main.storyboard */; };
 		F53B22B91C8C46A200FC7B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53B22B81C8C46A200FC7B09 /* Assets.xcassets */; };
@@ -26,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B083E27C1C8E75CA00C79091 /* PersistenceQueryCommand+DataOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersistenceQueryCommand+DataOperations.h"; sourceTree = "<group>"; };
+		B083E27D1C8E75CA00C79091 /* PersistenceQueryCommand+DataOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersistenceQueryCommand+DataOperations.m"; sourceTree = "<group>"; };
+		B083E2801C8E938800C79091 /* PersistenceTable+Insert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersistenceTable+Insert.h"; sourceTree = "<group>"; };
+		B083E2811C8E938800C79091 /* PersistenceTable+Insert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersistenceTable+Insert.m"; sourceTree = "<group>"; };
+		B0B6D8891C8FCCAD0096E2A6 /* PersistenceTable+Update.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersistenceTable+Update.h"; sourceTree = "<group>"; };
+		B0B6D88A1C8FCCAD0096E2A6 /* PersistenceTable+Update.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersistenceTable+Update.m"; sourceTree = "<group>"; };
 		F53B22A91C8C46A200FC7B09 /* Persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53B22AD1C8C46A200FC7B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F53B22B61C8C46A200FC7B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,7 +50,7 @@
 		F53B22D11C8C541500FC7B09 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F53B22D31C8C604800FC7B09 /* PersistenceConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceConfiguration.h; sourceTree = "<group>"; };
 		F53B22DC1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersistenceQueryCommand+SchemaOperations.h"; sourceTree = "<group>"; };
-		F53B22DD1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PersistenceQueryCommand+SchemaOperations.m"; path = "Category/PersistenceQueryCommand+SchemaOperations.m"; sourceTree = "<group>"; };
+		F53B22DD1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersistenceQueryCommand+SchemaOperations.m"; sourceTree = "<group>"; };
 		F53B22E01C8C778500FC7B09 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F53B22E11C8C778500FC7B09 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F53B22E21C8C778500FC7B09 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -70,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B083E27F1C8E936F00C79091 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B083E2801C8E938800C79091 /* PersistenceTable+Insert.h */,
+				B083E2811C8E938800C79091 /* PersistenceTable+Insert.m */,
+				B0B6D8891C8FCCAD0096E2A6 /* PersistenceTable+Update.h */,
+				B0B6D88A1C8FCCAD0096E2A6 /* PersistenceTable+Update.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		F53B22A01C8C46A200FC7B09 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +137,7 @@
 		F53B22C41C8C48F200FC7B09 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				B083E27F1C8E936F00C79091 /* Category */,
 				F53B22C61C8C498700FC7B09 /* PersistenceTable.h */,
 				F53B22C71C8C498700FC7B09 /* PersistenceTable.m */,
 			);
@@ -136,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				F53B22DB1C8C6F8600FC7B09 /* Category */,
-				F53B22DD1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m */,
 				F53B22CA1C8C4DB100FC7B09 /* PersistenceQueryCommand.h */,
 				F53B22CB1C8C4DB100FC7B09 /* PersistenceQueryCommand.m */,
 			);
@@ -156,6 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				F53B22DC1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.h */,
+				F53B22DD1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m */,
+				B083E27C1C8E75CA00C79091 /* PersistenceQueryCommand+DataOperations.h */,
+				B083E27D1C8E75CA00C79091 /* PersistenceQueryCommand+DataOperations.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -273,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D75F121C8DBC3D0007F8C9 /* PersistenceRecord.m in Sources */,
+				B0B6D88B1C8FCCAD0096E2A6 /* PersistenceTable+Update.m in Sources */,
 				F53B22E51C8C778500FC7B09 /* ViewController.m in Sources */,
 				F53B22DE1C8C6FD100FC7B09 /* PersistenceQueryCommand+SchemaOperations.m in Sources */,
 				F53B22D01C8C53CE00FC7B09 /* PersistenceDatabase.m in Sources */,
@@ -283,6 +307,8 @@
 				F53B22ED1C8C793E00FC7B09 /* testObject.m in Sources */,
 				F5D75F161C8DC6A70007F8C9 /* TestRecord01.m in Sources */,
 				F5D75F191C8DC8570007F8C9 /* TestRecordCase.m in Sources */,
+				B083E2821C8E938800C79091 /* PersistenceTable+Insert.m in Sources */,
+				B083E27E1C8E75CA00C79091 /* PersistenceQueryCommand+DataOperations.m in Sources */,
 				F53B22CC1C8C4DB100FC7B09 /* PersistenceQueryCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

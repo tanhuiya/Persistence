@@ -10,4 +10,5 @@
 
 @interface PersistenceQueryCommand (SchemaOperations)
 -(PersistenceQueryCommand*)createTable:(NSString*)tableName columDics:(NSDictionary*)colums;
+-(PersistenceQueryCommand*)addColumn:(NSString*)columnName columnDes:(NSString*)colomnDes table:(NSString*)tableName;
 @end

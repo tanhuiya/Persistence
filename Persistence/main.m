@@ -13,8 +13,8 @@
 #import "TestRecordCase.h"
 
 int main(int argc, char * argv[]) {
-    testObject* test1 = [[testObject alloc]init];
-    [test1 test];
+//    testObject* test1 = [[testObject alloc]init];
+//    [test1 test];
     
     TestRecordCase * recordcase = [[TestRecordCase alloc]init];
     [recordcase test];

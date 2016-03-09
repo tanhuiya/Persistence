@@ -26,4 +26,12 @@
     [self.sqlString appendFormat:@"CREATE TABLE IF NOT EXISTS %@ (%@)",tableName,columnStr];
     return self;
 }
+-(PersistenceQueryCommand*)addColumn:(NSString*)columnName columnDes:(NSString*)colomnDes table:(NSString*)tableName{
+    [self resetQueryCommand];
+    if (!tableName.length) {
+        return nil;
+    }
+    [self.sqlString appendFormat:@"ALTER TABLE %@ ADD COLUMN %@ %@",tableName,columnName,colomnDes];
+    return self;
+}
 @end

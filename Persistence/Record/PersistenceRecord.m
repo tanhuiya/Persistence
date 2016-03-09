@@ -20,7 +20,7 @@
         NSString *propertyName = [[NSString alloc] initWithCString:property_getName(property) encoding:NSUTF8StringEncoding];
         id value = [self valueForKey:propertyName];
         if(!value){
-            propertyDic[propertyName]=[NSNull class];
+            propertyDic[propertyName]=[NSNull null];
         }else{
             propertyDic[propertyName]=value;
         }

@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "PersistenceRecord.h"
+#import "PersistenceQueryCommand.h"
 @protocol PersistenceTableProtocol <NSObject>
 
 @required

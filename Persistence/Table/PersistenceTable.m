@@ -45,5 +45,6 @@
     PersistenceQueryCommand* command = [[PersistenceQueryCommand alloc]initWithDataBaseName:self.child.databaseName];
     [command.sqlString appendString:sql];
     return [command fetchWithError:error];
+    
 }
 @end
